@@ -1,0 +1,128 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "app",
+    "children" : [ {
+      "name" : "47383302584660",
+      "children" : [ {
+        "name" : "Create a card and move between columns",
+        "uid" : "4d608d90d207cac7",
+        "parentUid" : "a97ae7918d87deadcd673be18991e957",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568641406832,
+          "stop" : 1568641412923,
+          "duration" : 6091
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a97ae7918d87deadcd673be18991e957"
+    }, {
+      "name" : "47304855763300",
+      "children" : [ {
+        "name" : "Create a card and move between columns",
+        "uid" : "7aee3522c731830b",
+        "parentUid" : "0d7a771345e117b220c6b1c704d72b57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568640487789,
+          "stop" : 1568640497688,
+          "duration" : 9899
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0d7a771345e117b220c6b1c704d72b57"
+    }, {
+      "name" : "47297658345840",
+      "children" : [ {
+        "name" : "Create a card and move between columns",
+        "uid" : "4b15832ed8c22b3f",
+        "parentUid" : "cb296d2158c2d404028102f364c99413",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568640724341,
+          "stop" : 1568640735191,
+          "duration" : 10850
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cb296d2158c2d404028102f364c99413"
+    }, {
+      "name" : "47396998003040",
+      "children" : [ {
+        "name" : "Create a card and move between columns",
+        "uid" : "8d0d5dceeae73ea",
+        "parentUid" : "39d0f6570dd9cca8eee0cbfa12f0ad44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568641218683,
+          "stop" : 1568641225343,
+          "duration" : 6660
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "39d0f6570dd9cca8eee0cbfa12f0ad44"
+    }, {
+      "name" : "46986627086680",
+      "children" : [ {
+        "name" : "Place an order",
+        "uid" : "d3159af1cfce2afd",
+        "parentUid" : "8c39e9667391f2528c97c0bd4587902a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568639870936,
+          "stop" : 1568639928450,
+          "duration" : 57514
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8c39e9667391f2528c97c0bd4587902a"
+    }, {
+      "name" : "47106830719320",
+      "children" : [ {
+        "name" : "Create a card and move between columns",
+        "uid" : "1131e6b0b1e5be6f",
+        "parentUid" : "ace5d53b7553a76ac471703e3865d296",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568640944892,
+          "stop" : 1568640953931,
+          "duration" : 9039
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ace5d53b7553a76ac471703e3865d296"
+    }, {
+      "name" : "46938690337120",
+      "children" : [ {
+        "name" : "Create a card and move between columns",
+        "uid" : "66db2ecf4800ebf1",
+        "parentUid" : "d652975ab229e284339dd26a4a9dd540",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568640838644,
+          "stop" : 1568640847245,
+          "duration" : 8601
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d652975ab229e284339dd26a4a9dd540"
+    } ],
+    "uid" : "227bc440caf3f3f44de0a5a71b9d2804"
+  } ]
+}

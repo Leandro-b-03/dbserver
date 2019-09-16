@@ -1,0 +1,216 @@
+{
+  "uid" : "7aee3522c731830b",
+  "name" : "Create a card and move between columns",
+  "fullName" : "Example Feature.Create a card and move between columns",
+  "historyId" : "ee8fd107e04aad57bc337f8566dc710a",
+  "time" : {
+    "start" : 1568640487789,
+    "stop" : 1568640497688,
+    "duration" : 9899
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I create a card in the Backlog Column",
+      "time" : {
+        "start" : 1568640488453,
+        "stop" : 1568640488786,
+        "duration" : 333
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d845cefd5178d0c5",
+        "name" : "160920191328-Passo 6 - Then after all the proccess I delete the card",
+        "source" : "d845cefd5178d0c5.png",
+        "type" : "image/png",
+        "size" : 143813
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When I change the card name to \"DB-Server\"",
+      "time" : {
+        "start" : 1568640488786,
+        "stop" : 1568640489662,
+        "duration" : 876
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d845cefd5178d0c5",
+        "name" : "160920191328-Passo 6 - Then after all the proccess I delete the card",
+        "source" : "d845cefd5178d0c5.png",
+        "type" : "image/png",
+        "size" : 143813
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I move it to \"To Do\" column",
+      "time" : {
+        "start" : 1568640489663,
+        "stop" : 1568640491256,
+        "duration" : 1593
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d845cefd5178d0c5",
+        "name" : "160920191328-Passo 6 - Then after all the proccess I delete the card",
+        "source" : "d845cefd5178d0c5.png",
+        "type" : "image/png",
+        "size" : 143813
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I move it to \"In Progress\" column",
+      "time" : {
+        "start" : 1568640491256,
+        "stop" : 1568640492488,
+        "duration" : 1232
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d845cefd5178d0c5",
+        "name" : "160920191328-Passo 6 - Then after all the proccess I delete the card",
+        "source" : "d845cefd5178d0c5.png",
+        "type" : "image/png",
+        "size" : 143813
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I move it to \"Testing\" column",
+      "time" : {
+        "start" : 1568640492488,
+        "stop" : 1568640493460,
+        "duration" : 972
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d845cefd5178d0c5",
+        "name" : "160920191328-Passo 6 - Then after all the proccess I delete the card",
+        "source" : "d845cefd5178d0c5.png",
+        "type" : "image/png",
+        "size" : 143813
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I move it to \"Done\" column",
+      "time" : {
+        "start" : 1568640493460,
+        "stop" : 1568640494690,
+        "duration" : 1230
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d845cefd5178d0c5",
+        "name" : "160920191328-Passo 6 - Then after all the proccess I delete the card",
+        "source" : "d845cefd5178d0c5.png",
+        "type" : "image/png",
+        "size" : 143813
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then after all the proccess I delete the card",
+      "time" : {
+        "start" : 1568640494690,
+        "stop" : 1568640495424,
+        "duration" : 734
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d845cefd5178d0c5",
+        "name" : "160920191328-Passo 6 - Then after all the proccess I delete the card",
+        "source" : "d845cefd5178d0c5.png",
+        "type" : "image/png",
+        "size" : 143813
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Example Feature"
+  }, {
+    "name" : "host",
+    "value" : "app"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Create a card and move between columns"
+  }, {
+    "name" : "thread",
+    "value" : "47304855763300"
+  }, {
+    "name" : "suite",
+    "value" : "Example Feature"
+  }, {
+    "name" : "testClass",
+    "value" : "Example Feature"
+  }, {
+    "name" : "testMethod",
+    "value" : "Create a card and move between columns"
+  }, {
+    "name" : "package",
+    "value" : "Example Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7aee3522c731830b.json",
+  "parameterValues" : [ ]
+}

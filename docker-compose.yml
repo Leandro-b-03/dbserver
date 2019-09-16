@@ -1,0 +1,68 @@
+version: '3.7'
+
+services:
+  elgalu_selenium:
+    image: elgalu/selenium
+    entrypoint: "bash -c"
+    command: "exit 0"
+
+  hub:
+    privileged: true
+    image: dosel/zalenium
+    restart: always
+    hostname: hub
+    deploy:
+      placement:
+        constraints:
+          - node.role == manager
+    labels:
+      - "de.zalando.gridRole=hub"
+    ports:
+      - "4444:4444"
+      - "8000:8000"
+    networks:
+      - default
+      - zalenium
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /tmp/videos:/home/seluser/videos
+    environment:
+      - PULL_SELENIUM_IMAGE=true
+      - ZALENIUM_PROXY_CLEANUP_TIMEOUT=1800
+    command: ["start", "--swarmOverlayNetwork", "dbserver_zalenium", "--videoRecordingEnabled", "false", "--timeZone", "America/Sao_Paulo", "--desiredContainers", "4", "--maxTestSessions", "4", "--maxDockerSeleniumContainers", "15", "--keepOnlyFailedTests", "true"]
+
+  portainer:
+    image: portainer/portainer
+    restart: always
+    hostname: portainer
+    ports:
+      - '9000:9000'
+    networks:
+      - default
+    volumes:
+      - '/var/run/docker.sock:/var/run/docker.sock'
+      - './portainer:/data'
+
+  app:
+    image: optimum
+    restart: always
+    hostname: app
+    depends_on:
+      - 'hub'
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    ports:
+      - "80:80"
+    networks:
+      - default
+    # command: bundle -v
+
+networks:
+  default:
+    driver: bridge
+  zalenium:
+      driver: overlay
+      attachable: true

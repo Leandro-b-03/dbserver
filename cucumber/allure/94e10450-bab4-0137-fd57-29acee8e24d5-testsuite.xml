@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1568640838416" stop="1568640847265">
+  <name>Example Feature</name>
+  <title>Example Feature</title>
+  <test-cases>
+    <test-case start="1568640838644" stop="1568640847245" status="passed">
+      <name>Create a card and move between columns</name>
+      <title>Create a card and move between columns</title>
+      <steps>
+        <step start="1568640839543" stop="1568640839877" status="passed">
+          <name>Given I create a card in the Backlog Column</name>
+          <title>Given I create a card in the Backlog Column</title>
+          <attachments>
+            <attachment source="ad6103a9502d48668afe60d9bb1bea5d7781b7c6bf819aaf1f6561b47b630d4e-attachment.png" title="160920191333-Passo 0 - Given I create a card in the Backlog Column" size="143572" type="image/png"/>
+          </attachments>
+        </step>
+        <step start="1568640839877" stop="1568640840435" status="passed">
+          <name>When I change the card name to "DB-Server"</name>
+          <title>When I change the card name to "DB-Server"</title>
+          <attachments>
+            <attachment source="ad6103a9502d48668afe60d9bb1bea5d7781b7c6bf819aaf1f6561b47b630d4e-attachment.png" title="160920191334-Passo 1 - When I change the card name to DB-Server" size="143572" type="image/png"/>
+          </attachments>
+        </step>
+        <step start="1568640840435" stop="1568640841425" status="passed">
+          <name>And I move it to "To Do" column</name>
+          <title>And I move it to "To Do" column</title>
+          <attachments>
+            <attachment source="ad6103a9502d48668afe60d9bb1bea5d7781b7c6bf819aaf1f6561b47b630d4e-attachment.png" title="160920191334-Passo 2 - And I move it to To Do column" size="143572" type="image/png"/>
+          </attachments>
+        </step>
+        <step start="1568640841425" stop="1568640842427" status="passed">
+          <name>And I move it to "In Progress" column</name>
+          <title>And I move it to "In Progress" column</title>
+          <attachments>
+            <attachment source="ad6103a9502d48668afe60d9bb1bea5d7781b7c6bf819aaf1f6561b47b630d4e-attachment.png" title="160920191334-Passo 3 - And I move it to In Progress column" size="143572" type="image/png"/>
+          </attachments>
+        </step>
+        <step start="1568640842427" stop="1568640843360" status="passed">
+          <name>And I move it to "Testing" column</name>
+          <title>And I move it to "Testing" column</title>
+          <attachments>
+            <attachment source="ad6103a9502d48668afe60d9bb1bea5d7781b7c6bf819aaf1f6561b47b630d4e-attachment.png" title="160920191334-Passo 4 - And I move it to Testing column" size="143572" type="image/png"/>
+          </attachments>
+        </step>
+        <step start="1568640843360" stop="1568640844328" status="passed">
+          <name>And I move it to "Done" column</name>
+          <title>And I move it to "Done" column</title>
+          <attachments>
+            <attachment source="ad6103a9502d48668afe60d9bb1bea5d7781b7c6bf819aaf1f6561b47b630d4e-attachment.png" title="160920191334-Passo 5 - And I move it to Done column" size="143572" type="image/png"/>
+          </attachments>
+        </step>
+        <step start="1568640844328" stop="1568640845102" status="passed">
+          <name>Then after all the proccess I delete the card</name>
+          <title>Then after all the proccess I delete the card</title>
+          <attachments>
+            <attachment source="ad6103a9502d48668afe60d9bb1bea5d7781b7c6bf819aaf1f6561b47b630d4e-attachment.png" title="160920191334-Passo 6 - Then after all the proccess I delete the card" size="143572" type="image/png"/>
+          </attachments>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="46938690337120"/>
+        <label name="host" value="app"/>
+        <label name="feature" value="Example Feature"/>
+        <label name="story" value="Create a card and move between columns"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="46938690337120"/>
+    <label name="host" value="app"/>
+  </labels>
+</ns2:test-suite>

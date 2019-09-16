@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1568639865468" stop="1568639928472">
+  <name>Example Feature</name>
+  <title>Example Feature</title>
+  <test-cases>
+    <test-case start="1568639870936" stop="1568639928450" status="passed">
+      <name>Place an order</name>
+      <title>Place an order</title>
+      <steps>
+        <step start="1568639901148" stop="1568639901148" status="passed">
+          <name>Given I am on website "http://automationpractice.com/index.php?"</name>
+          <title>Given I am on website "http://automationpractice.com/index.php?"</title>
+          <attachments/>
+        </step>
+        <step start="1568639901148" stop="1568639901148" status="passed">
+          <name>When I go to the sign in page</name>
+          <title>When I go to the sign in page</title>
+          <attachments/>
+        </step>
+        <step start="1568639901148" stop="1568639901148" status="passed">
+          <name>And I input an valid email and proceed to create an account</name>
+          <title>And I input an valid email and proceed to create an account</title>
+          <attachments/>
+        </step>
+        <step start="1568639901148" stop="1568639901148" status="passed">
+          <name>And then I fill the form</name>
+          <title>And then I fill the form</title>
+          <attachments/>
+        </step>
+        <step start="1568639901148" stop="1568639901148" status="passed">
+          <name>Then I sign up</name>
+          <title>Then I sign up</title>
+          <attachments/>
+        </step>
+        <step start="1568639901149" stop="1568639901907" status="passed">
+          <name>Given I am on the "Dresses" Category</name>
+          <title>Given I am on the "Dresses" Category</title>
+          <attachments>
+            <attachment source="daef282ec5955af0e91e89b9ebcf9bbf16fe69daad666d03744b622f71ca79a8-attachment.png" title="160920191318-Passo 5 - Given I am on the Dresses Category" size="936172" type="image/png"/>
+          </attachments>
+        </step>
+        <step start="1568639901907" stop="1568639908180" status="passed">
+          <name>And I go to "Casual Dresses"</name>
+          <title>And I go to "Casual Dresses"</title>
+          <attachments>
+            <attachment source="98c3199da39a9db1b8f09c03850e561d9bb4284ed24a9a7d2b1f975d4187166b-attachment.png" title="160920191318-Passo 6 - And I go to Casual Dresses" size="468791" type="image/png"/>
+          </attachments>
+        </step>
+        <step start="1568639908180" stop="1568639910085" status="passed">
+          <name>When I select the first product in the list</name>
+          <title>When I select the first product in the list</title>
+          <attachments>
+            <attachment source="3e9aefb8706a4399ebd3df6978cbedd3ff64e53d4181285c01c5da0cf0ef2992-attachment.png" title="160920191318-Passo 7 - When I select the first product in the list" size="225899" type="image/png"/>
+          </attachments>
+        </step>
+        <step start="1568639910085" stop="1568639910869" status="passed">
+          <name>And I add it to cart on the "M" size</name>
+          <title>And I add it to cart on the "M" size</title>
+          <attachments>
+            <attachment source="115411c8de4b0ea1314ea7c8231fa044e4a659e36431497f0fe5da2c75566bcb-attachment.png" title="160920191318-Passo 8 - And I add it to cart on the M size" size="226200" type="image/png"/>
+          </attachments>
+        </step>
+        <step start="1568639910869" stop="1568639916939" status="passed">
+          <name>And I proceed to checkout</name>
+          <title>And I proceed to checkout</title>
+          <attachments>
+            <attachment source="367ec8c2266b69a24872eab0c79f2ae9bea108015c4bee5656656731b149f078-attachment.png" title="160920191318-Passo 9 - And I proceed to checkout" size="132935" type="image/png"/>
+          </attachments>
+        </step>
+        <step start="1568639916939" stop="1568639918641" status="passed">
+          <name>And I select the address</name>
+          <title>And I select the address</title>
+          <attachments>
+            <attachment source="464977b8d80fc3cbdd123bac80edde1a5055472ccd40a514ec91cd8896b90152-attachment.png" title="160920191318-Passo 10 - And I select the address" size="143509" type="image/png"/>
+          </attachments>
+        </step>
+        <step start="1568639918641" stop="1568639920432" status="passed">
+          <name>And I select the shipping</name>
+          <title>And I select the shipping</title>
+          <attachments>
+            <attachment source="9f97c93ad4253a44f591f2384c1b595cd8ba1a946d3b368c4cfe420eb98dd8fc-attachment.png" title="160920191318-Passo 11 - And I select the shipping" size="144918" type="image/png"/>
+          </attachments>
+        </step>
+        <step start="1568639920432" stop="1568639924632" status="passed">
+          <name>And I select the payment type</name>
+          <title>And I select the payment type</title>
+          <attachments>
+            <attachment source="3acd91363917868b0864fcb97a393ce1520ae9b4a59992a5c2a871fda5f8a0f4-attachment.png" title="160920191318-Passo 12 - And I select the payment type" size="143530" type="image/png"/>
+          </attachments>
+        </step>
+        <step start="1568639924632" stop="1568639925006" status="passed">
+          <name>Then I place the order</name>
+          <title>Then I place the order</title>
+          <attachments>
+            <attachment source="3acd91363917868b0864fcb97a393ce1520ae9b4a59992a5c2a871fda5f8a0f4-attachment.png" title="160920191318-Passo 13 - Then I place the order" size="143530" type="image/png"/>
+          </attachments>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="46986627086680"/>
+        <label name="host" value="app"/>
+        <label name="feature" value="Example Feature"/>
+        <label name="story" value="Place an order"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="46986627086680"/>
+    <label name="host" value="app"/>
+  </labels>
+</ns2:test-suite>

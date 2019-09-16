@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1568641406814" stop="1568641412958">
+  <name>Example Feature</name>
+  <title>Example Feature</title>
+  <test-cases>
+    <test-case start="1568641406832" stop="1568641412923" status="passed">
+      <name>Create a card and move between columns</name>
+      <title>Create a card and move between columns</title>
+      <steps>
+        <step start="1568641407200" stop="1568641407201" status="passed">
+          <name>Given I create a card in the Backlog Column</name>
+          <title>Given I create a card in the Backlog Column</title>
+          <attachments/>
+        </step>
+        <step start="1568641407201" stop="1568641407746" status="passed">
+          <name>When I change the card name to "DB-Server"</name>
+          <title>When I change the card name to "DB-Server"</title>
+          <attachments/>
+        </step>
+        <step start="1568641407746" stop="1568641408519" status="passed">
+          <name>And I move it to "To Do" column</name>
+          <title>And I move it to "To Do" column</title>
+          <attachments/>
+        </step>
+        <step start="1568641408519" stop="1568641409167" status="passed">
+          <name>And I move it to "In Progress" column</name>
+          <title>And I move it to "In Progress" column</title>
+          <attachments/>
+        </step>
+        <step start="1568641409167" stop="1568641409734" status="passed">
+          <name>And I move it to "Testing" column</name>
+          <title>And I move it to "Testing" column</title>
+          <attachments/>
+        </step>
+        <step start="1568641409736" stop="1568641410393" status="passed">
+          <name>And I move it to "Done" column</name>
+          <title>And I move it to "Done" column</title>
+          <attachments/>
+        </step>
+        <step start="1568641410393" stop="1568641410782" status="passed">
+          <name>Then after all the proccess I delete the card</name>
+          <title>Then after all the proccess I delete the card</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="47383302584660"/>
+        <label name="host" value="app"/>
+        <label name="feature" value="Example Feature"/>
+        <label name="story" value="Create a card and move between columns"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="47383302584660"/>
+    <label name="host" value="app"/>
+  </labels>
+</ns2:test-suite>

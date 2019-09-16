@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Example Feature",
+    "children" : [ {
+      "name" : "Place an order",
+      "uid" : "d3159af1cfce2afd",
+      "parentUid" : "f5411407b06d9997ba43cec1a70cd28c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568639870936,
+        "stop" : 1568639928450,
+        "duration" : 57514
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create a card and move between columns",
+      "uid" : "4d608d90d207cac7",
+      "parentUid" : "f5411407b06d9997ba43cec1a70cd28c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568641406832,
+        "stop" : 1568641412923,
+        "duration" : 6091
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f5411407b06d9997ba43cec1a70cd28c"
+  } ]
+}

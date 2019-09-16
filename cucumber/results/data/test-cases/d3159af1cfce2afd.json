@@ -1,0 +1,335 @@
+{
+  "uid" : "d3159af1cfce2afd",
+  "name" : "Place an order",
+  "fullName" : "Example Feature.Place an order",
+  "historyId" : "5aa4d2416af49621f48d2ec87a7e710c",
+  "time" : {
+    "start" : 1568639870936,
+    "stop" : 1568639928450,
+    "duration" : 57514
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on website \"http://automationpractice.com/index.php?\"",
+      "time" : {
+        "start" : 1568639901148,
+        "stop" : 1568639901148,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I go to the sign in page",
+      "time" : {
+        "start" : 1568639901148,
+        "stop" : 1568639901148,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I input an valid email and proceed to create an account",
+      "time" : {
+        "start" : 1568639901148,
+        "stop" : 1568639901148,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And then I fill the form",
+      "time" : {
+        "start" : 1568639901148,
+        "stop" : 1568639901148,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I sign up",
+      "time" : {
+        "start" : 1568639901148,
+        "stop" : 1568639901148,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given I am on the \"Dresses\" Category",
+      "time" : {
+        "start" : 1568639901149,
+        "stop" : 1568639901907,
+        "duration" : 758
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c321e06025d5c804",
+        "name" : "160920191318-Passo 5 - Given I am on the Dresses Category",
+        "source" : "c321e06025d5c804.png",
+        "type" : "image/png",
+        "size" : 936172
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I go to \"Casual Dresses\"",
+      "time" : {
+        "start" : 1568639901907,
+        "stop" : 1568639908180,
+        "duration" : 6273
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "95965da0f1f34c81",
+        "name" : "160920191318-Passo 6 - And I go to Casual Dresses",
+        "source" : "95965da0f1f34c81.png",
+        "type" : "image/png",
+        "size" : 468791
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When I select the first product in the list",
+      "time" : {
+        "start" : 1568639908180,
+        "stop" : 1568639910085,
+        "duration" : 1905
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ddf673cb4fee3c3a",
+        "name" : "160920191318-Passo 7 - When I select the first product in the list",
+        "source" : "ddf673cb4fee3c3a.png",
+        "type" : "image/png",
+        "size" : 225899
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I add it to cart on the \"M\" size",
+      "time" : {
+        "start" : 1568639910085,
+        "stop" : 1568639910869,
+        "duration" : 784
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a031871018de9cb8",
+        "name" : "160920191318-Passo 8 - And I add it to cart on the M size",
+        "source" : "a031871018de9cb8.png",
+        "type" : "image/png",
+        "size" : 226200
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I proceed to checkout",
+      "time" : {
+        "start" : 1568639910869,
+        "stop" : 1568639916939,
+        "duration" : 6070
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c829593d0c6e6400",
+        "name" : "160920191318-Passo 9 - And I proceed to checkout",
+        "source" : "c829593d0c6e6400.png",
+        "type" : "image/png",
+        "size" : 132935
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I select the address",
+      "time" : {
+        "start" : 1568639916939,
+        "stop" : 1568639918641,
+        "duration" : 1702
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4a023aec6e2b343e",
+        "name" : "160920191318-Passo 10 - And I select the address",
+        "source" : "4a023aec6e2b343e.png",
+        "type" : "image/png",
+        "size" : 143509
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I select the shipping",
+      "time" : {
+        "start" : 1568639918641,
+        "stop" : 1568639920432,
+        "duration" : 1791
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e06a70d539fabea",
+        "name" : "160920191318-Passo 11 - And I select the shipping",
+        "source" : "e06a70d539fabea.png",
+        "type" : "image/png",
+        "size" : 144918
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I select the payment type",
+      "time" : {
+        "start" : 1568639920432,
+        "stop" : 1568639924632,
+        "duration" : 4200
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "206565993397bef6",
+        "name" : "160920191318-Passo 13 - Then I place the order",
+        "source" : "206565993397bef6.png",
+        "type" : "image/png",
+        "size" : 143530
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I place the order",
+      "time" : {
+        "start" : 1568639924632,
+        "stop" : 1568639925006,
+        "duration" : 374
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "206565993397bef6",
+        "name" : "160920191318-Passo 13 - Then I place the order",
+        "source" : "206565993397bef6.png",
+        "type" : "image/png",
+        "size" : 143530
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Example Feature"
+  }, {
+    "name" : "host",
+    "value" : "app"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Place an order"
+  }, {
+    "name" : "thread",
+    "value" : "46986627086680"
+  }, {
+    "name" : "suite",
+    "value" : "Example Feature"
+  }, {
+    "name" : "testClass",
+    "value" : "Example Feature"
+  }, {
+    "name" : "testMethod",
+    "value" : "Place an order"
+  }, {
+    "name" : "package",
+    "value" : "Example Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d3159af1cfce2afd.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,21 @@
+[ {
+  "uid" : "d3159af1cfce2afd",
+  "name" : "Place an order",
+  "time" : {
+    "start" : 1568639870936,
+    "stop" : 1568639928450,
+    "duration" : 57514
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d608d90d207cac7",
+  "name" : "Create a card and move between columns",
+  "time" : {
+    "start" : 1568641406832,
+    "stop" : 1568641412923,
+    "duration" : 6091
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

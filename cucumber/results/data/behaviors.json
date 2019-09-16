@@ -1,0 +1,43 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Example Feature",
+    "children" : [ {
+      "name" : "Place an order",
+      "children" : [ {
+        "name" : "Place an order",
+        "uid" : "d3159af1cfce2afd",
+        "parentUid" : "0ecd4e8df887f47805a0d1c3707bbeed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568639870936,
+          "stop" : 1568639928450,
+          "duration" : 57514
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0ecd4e8df887f47805a0d1c3707bbeed"
+    }, {
+      "name" : "Create a card and move between columns",
+      "children" : [ {
+        "name" : "Create a card and move between columns",
+        "uid" : "4d608d90d207cac7",
+        "parentUid" : "a850299039fc4e0626ce2cd71aa8183c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568641406832,
+          "stop" : 1568641412923,
+          "duration" : 6091
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a850299039fc4e0626ce2cd71aa8183c"
+    } ],
+    "uid" : "3cb07991fb1a6dfebe24abea10a346c1"
+  } ]
+}

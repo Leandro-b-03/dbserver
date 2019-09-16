@@ -1,0 +1,216 @@
+{
+  "uid" : "4d608d90d207cac7",
+  "name" : "Create a card and move between columns",
+  "fullName" : "Example Feature.Create a card and move between columns",
+  "historyId" : "ee8fd107e04aad57bc337f8566dc710a",
+  "time" : {
+    "start" : 1568641406832,
+    "stop" : 1568641412923,
+    "duration" : 6091
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I create a card in the Backlog Column",
+      "time" : {
+        "start" : 1568641407200,
+        "stop" : 1568641407201,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I change the card name to \"DB-Server\"",
+      "time" : {
+        "start" : 1568641407201,
+        "stop" : 1568641407746,
+        "duration" : 545
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I move it to \"To Do\" column",
+      "time" : {
+        "start" : 1568641407746,
+        "stop" : 1568641408519,
+        "duration" : 773
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I move it to \"In Progress\" column",
+      "time" : {
+        "start" : 1568641408519,
+        "stop" : 1568641409167,
+        "duration" : 648
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I move it to \"Testing\" column",
+      "time" : {
+        "start" : 1568641409167,
+        "stop" : 1568641409734,
+        "duration" : 567
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I move it to \"Done\" column",
+      "time" : {
+        "start" : 1568641409736,
+        "stop" : 1568641410393,
+        "duration" : 657
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then after all the proccess I delete the card",
+      "time" : {
+        "start" : 1568641410393,
+        "stop" : 1568641410782,
+        "duration" : 389
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Example Feature"
+  }, {
+    "name" : "host",
+    "value" : "app"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Create a card and move between columns"
+  }, {
+    "name" : "thread",
+    "value" : "47383302584660"
+  }, {
+    "name" : "suite",
+    "value" : "Example Feature"
+  }, {
+    "name" : "testClass",
+    "value" : "Example Feature"
+  }, {
+    "name" : "testMethod",
+    "value" : "Create a card and move between columns"
+  }, {
+    "name" : "package",
+    "value" : "Example Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8d0d5dceeae73ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568641218683,
+        "stop" : 1568641225343,
+        "duration" : 6660
+      }
+    }, {
+      "uid" : "1131e6b0b1e5be6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568640944892,
+        "stop" : 1568640953931,
+        "duration" : 9039
+      }
+    }, {
+      "uid" : "66db2ecf4800ebf1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568640838644,
+        "stop" : 1568640847245,
+        "duration" : 8601
+      }
+    }, {
+      "uid" : "4b15832ed8c22b3f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568640724341,
+        "stop" : 1568640735191,
+        "duration" : 10850
+      }
+    }, {
+      "uid" : "7aee3522c731830b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568640487789,
+        "stop" : 1568640497688,
+        "duration" : 9899
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4d608d90d207cac7.json",
+  "parameterValues" : [ ]
+}
